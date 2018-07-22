@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b698c00d-286c-4df7-a269-721fa5ddee9f" name="Default" comment="" />
+    <list default="true" id="6401b4fe-3ec7-4db5-9c26-f0cb97fac829" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DoublePredicateExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DoublePredicateExample.java">
+      <file leaf-file-name="DoubleSupplierExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DoubleSupplierExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="90">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -33,13 +33,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DoublePredicateExample.java" />
+        <option value="$PROJECT_DIR$/src/DoubleSupplierExample.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="468" />
+    <option name="x" value="24" />
+    <option name="y" value="559" />
     <option name="width" value="1436" />
     <option name="height" value="823" />
   </component>
@@ -48,25 +48,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DoublePredicate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoublePredicate" type="462c0819:PsiDirectoryNode" />
+              <item name="DoubleSupplier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleSupplier" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DoublePredicate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoublePredicate" type="462c0819:PsiDirectoryNode" />
+              <item name="DoubleSupplier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleSupplier" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -82,9 +82,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="DoublePredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoublePredicateExample" />
-      <module name="DoublePredicate" />
+    <configuration name="DoubleSupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoubleSupplierExample" />
+      <module name="DoubleSupplier" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -130,7 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DoublePredicateExample" />
+        <item itemvalue="Application.DoubleSupplierExample" />
       </list>
     </recent_temporary>
   </component>
@@ -139,32 +139,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b698c00d-286c-4df7-a269-721fa5ddee9f" name="Default" comment="" />
-      <created>1532293213395</created>
+      <changelist id="6401b4fe-3ec7-4db5-9c26-f0cb97fac829" name="Default" comment="" />
+      <created>1532293887050</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532293213395</updated>
+      <updated>1532293887050</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="468" width="1436" height="823" extended-state="0" />
+    <frame x="4" y="368" width="1436" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32977304" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -183,10 +182,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DoublePredicateExample.java">
+    <entry file="file://$PROJECT_DIR$/src/DoubleSupplierExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="90">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
