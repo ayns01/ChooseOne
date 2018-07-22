@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ccb66d8-9ca8-427f-85c2-c4eab380934a" name="Default" comment="" />
+    <list default="true" id="c139dfc3-877e-46ed-bf6d-ca3abb367054" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BooleanSupplierExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BooleanSupplierExample.java">
+      <file leaf-file-name="ConsumerExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ConsumerExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="75">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -33,13 +33,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BooleanSupplierExample.java" />
+        <option value="$PROJECT_DIR$/src/ConsumerExample.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="93" />
+    <option name="x" value="25" />
+    <option name="y" value="500" />
     <option name="width" value="1436" />
     <option name="height" value="823" />
   </component>
@@ -48,17 +48,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="BooleanSupplier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BooleanSupplier" type="462c0819:PsiDirectoryNode" />
+              <item name="Consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BooleanSupplier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BooleanSupplier" type="462c0819:PsiDirectoryNode" />
+              <item name="Consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -67,6 +66,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -82,9 +82,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BooleanSupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BooleanSupplierExample" />
-      <module name="BooleanSupplier" />
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConsumerExample" />
+      <module name="Consumer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -130,7 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BooleanSupplierExample" />
+        <item itemvalue="Application.ConsumerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -139,26 +139,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ccb66d8-9ca8-427f-85c2-c4eab380934a" name="Default" comment="" />
-      <created>1532241816354</created>
+      <changelist id="c139dfc3-877e-46ed-bf6d-ca3abb367054" name="Default" comment="" />
+      <created>1532242808519</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532241816354</updated>
+      <updated>1532242808519</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="93" width="1436" height="823" extended-state="0" />
+    <frame x="4" y="376" width="1436" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32977304" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -182,10 +182,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BooleanSupplierExample.java">
+    <entry file="file://$PROJECT_DIR$/src/ConsumerExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
