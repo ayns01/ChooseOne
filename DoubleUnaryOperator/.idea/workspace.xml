@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bdd8746-3784-4ab1-a112-9c8b88053796" name="Default" comment="" />
+    <list default="true" id="f2d28709-c3d5-4889-8213-72341e5fc22d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DoubleToLongFunctionExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DoubleToLongFunctionExample.java">
+      <file leaf-file-name="DoubleUnaryOperatorExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DoubleUnaryOperatorExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="195">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -33,13 +33,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DoubleToLongFunctionExample.java" />
+        <option value="$PROJECT_DIR$/src/DoubleUnaryOperatorExample.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="y" value="102" />
+    <option name="x" value="24" />
+    <option name="y" value="136" />
     <option name="width" value="1436" />
     <option name="height" value="823" />
   </component>
@@ -48,16 +48,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DoubleToLongFunction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoubleToLongFunction" type="462c0819:PsiDirectoryNode" />
+              <item name="DoubleUnaryOperator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleUnaryOperator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DoubleToLongFunction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoubleToLongFunction" type="462c0819:PsiDirectoryNode" />
+              <item name="DoubleUnaryOperator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleUnaryOperator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -65,7 +66,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -82,9 +82,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="DoubleToLongFunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoubleToLongFunctionExample" />
-      <module name="DoubleToLongFunction" />
+    <configuration name="DoubleUnaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoubleUnaryOperatorExample" />
+      <module name="DoubleUnaryOperator" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -130,7 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DoubleToLongFunctionExample" />
+        <item itemvalue="Application.DoubleUnaryOperatorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -139,16 +139,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3bdd8746-3784-4ab1-a112-9c8b88053796" name="Default" comment="" />
-      <created>1532294719309</created>
+      <changelist id="f2d28709-c3d5-4889-8213-72341e5fc22d" name="Default" comment="" />
+      <created>1532295535646</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532294719309</updated>
+      <updated>1532295535646</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="102" width="1436" height="823" extended-state="0" />
+    <frame x="24" y="136" width="1436" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -183,10 +183,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DoubleToLongFunctionExample.java">
+    <entry file="file://$PROJECT_DIR$/src/DoubleUnaryOperatorExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
