@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c55496ca-40d0-478c-8094-7939d5721106" name="Default" comment="" />
+    <list default="true" id="3c2af118-ae84-4629-81f2-22801d68a66c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BiConsumerExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BiConsumerExample.java">
+      <file leaf-file-name="BinaryOperatorExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryOperatorExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="105">
+              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,13 +36,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BiConsumerExample.java" />
+        <option value="$PROJECT_DIR$/src/BinaryOperatorExample.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="102" />
-    <option name="y" value="221" />
+    <option name="x" value="117" />
+    <option name="y" value="217" />
     <option name="width" value="1436" />
     <option name="height" value="823" />
   </component>
@@ -48,25 +51,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="BiConsumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryOperator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BinaryOperator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BiConsumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryOperator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BinaryOperator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -82,9 +85,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BiConsumerExample" />
-      <module name="BiConsumer" />
+    <configuration name="BinaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryOperatorExample" />
+      <module name="BinaryOperator" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -130,7 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BiConsumerExample" />
+        <item itemvalue="Application.BinaryOperatorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -139,16 +142,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c55496ca-40d0-478c-8094-7939d5721106" name="Default" comment="" />
-      <created>1532235177555</created>
+      <changelist id="3c2af118-ae84-4629-81f2-22801d68a66c" name="Default" comment="" />
+      <created>1532236818401</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532235177555</updated>
+      <updated>1532236818401</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="221" width="1436" height="823" extended-state="0" />
+    <frame x="117" y="217" width="1436" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -183,10 +186,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BiConsumerExample.java">
+    <entry file="file://$PROJECT_DIR$/src/BinaryOperatorExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="105">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
