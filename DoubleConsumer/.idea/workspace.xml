@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1777a85d-cc13-489b-95bd-5cc66a413ff6" name="Default" comment="" />
+    <list default="true" id="cd26b2d4-4a52-435f-b46e-ab358feafda6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DoubleBinaryOperatorExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DoubleBinaryOperatorExample.java">
+      <file leaf-file-name="DoubleConsumerExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DoubleConsumerExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -33,13 +33,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DoubleBinaryOperatorExample.java" />
+        <option value="$PROJECT_DIR$/src/DoubleConsumerExample.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="208" />
+    <option name="x" value="18" />
+    <option name="y" value="204" />
     <option name="width" value="1436" />
     <option name="height" value="823" />
   </component>
@@ -48,25 +48,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DoubleBinaryOperator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoubleBinaryOperator" type="462c0819:PsiDirectoryNode" />
+              <item name="DoubleConsumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleConsumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DoubleBinaryOperator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoubleBinaryOperator" type="462c0819:PsiDirectoryNode" />
+              <item name="DoubleConsumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleConsumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -82,9 +82,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="DoubleBinaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoubleBinaryOperatorExample" />
-      <module name="DoubleBinaryOperator" />
+    <configuration name="DoubleConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoubleConsumerExample" />
+      <module name="DoubleConsumer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -130,7 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DoubleBinaryOperatorExample" />
+        <item itemvalue="Application.DoubleConsumerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -139,16 +139,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1777a85d-cc13-489b-95bd-5cc66a413ff6" name="Default" comment="" />
-      <created>1532291563060</created>
+      <changelist id="cd26b2d4-4a52-435f-b46e-ab358feafda6" name="Default" comment="" />
+      <created>1532292176194</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532291563060</updated>
+      <updated>1532292176194</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="208" width="1436" height="823" extended-state="0" />
+    <frame x="18" y="204" width="1436" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -159,7 +159,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32977304" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32977304" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -183,10 +183,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DoubleBinaryOperatorExample.java">
+    <entry file="file://$PROJECT_DIR$/src/DoubleConsumerExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
