@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd26b2d4-4a52-435f-b46e-ab358feafda6" name="Default" comment="" />
+    <list default="true" id="b304836d-fbb5-4e26-8ed9-65cbc416bb6b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DoubleConsumerExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DoubleConsumerExample.java">
+      <file leaf-file-name="DoubleFunctionExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DoubleFunctionExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            <state relative-caret-position="75">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -33,13 +33,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DoubleConsumerExample.java" />
+        <option value="$PROJECT_DIR$/src/DoubleFunctionExample.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
-    <option name="y" value="204" />
+    <option name="x" value="2" />
+    <option name="y" value="380" />
     <option name="width" value="1436" />
     <option name="height" value="823" />
   </component>
@@ -48,25 +48,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DoubleConsumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoubleConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="DoubleFunction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleFunction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DoubleConsumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoubleConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="DoubleFunction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleFunction" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -82,9 +82,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="DoubleConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoubleConsumerExample" />
-      <module name="DoubleConsumer" />
+    <configuration name="DoubleFunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoubleFunctionExample" />
+      <module name="DoubleFunction" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -130,7 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DoubleConsumerExample" />
+        <item itemvalue="Application.DoubleFunctionExample" />
       </list>
     </recent_temporary>
   </component>
@@ -139,16 +139,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cd26b2d4-4a52-435f-b46e-ab358feafda6" name="Default" comment="" />
-      <created>1532292176194</created>
+      <changelist id="b304836d-fbb5-4e26-8ed9-65cbc416bb6b" name="Default" comment="" />
+      <created>1532292662163</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532292176194</updated>
+      <updated>1532292662163</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="204" width="1436" height="823" extended-state="0" />
+    <frame x="2" y="380" width="1436" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -163,7 +164,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -182,10 +183,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DoubleConsumerExample.java">
+    <entry file="file://$PROJECT_DIR$/src/DoubleFunctionExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="75">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
         </state>
       </provider>
     </entry>
