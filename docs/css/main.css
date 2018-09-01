@@ -6,8 +6,7 @@ html {
 body {
     height: 100%;
     padding: 0;
-    background-image: url("../img/bg-arrows.jpg");
-    background-size: cover;
+    background: url("../img/bg-arrows.jpg") repeat;
 }
 
 * {
