@@ -1,9 +1,9 @@
 import {Component} from "react";
-import {ImageBackground, Text, View, StyleSheet, TouchableOpacity, Image} from "react-native";
+import {ImageBackground, Text, View, StyleSheet, Image} from "react-native";
 import React from "react";
-import LinearGradient from 'react-native-linear-gradient';
 
 import {baseStyles} from "../style/base";
+import Button from "../component/Button";
 
 export default class HomeScreen extends Component {
   render() {
@@ -18,16 +18,10 @@ export default class HomeScreen extends Component {
                   <Text style={styles.logoTitleText}>ONE!</Text>
                 </View>
               </View>
-
-              <TouchableOpacity
-                  style={styles.button}
+              <Button
                   onPress={() => this.props.navigation.navigate('Game')}
-              >
-                <LinearGradient colors={['#F28C81', '#F5AF19']} style={styles.linearGradient}>
-                  <Text style={styles.textStyle}>START</Text>
-                </LinearGradient>
-              </TouchableOpacity>
-
+                  colors={['#F28C81', '#F5AF19']}
+              >START</Button>
             </View>
           </ImageBackground>
         </View>
@@ -58,22 +52,5 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: 'bold',
     textAlign: 'center',
-  },
-  button: {
-    width: '100%',
-    shadowOffset: {width: 0, height: 3,},
-    shadowColor: '#000',
-    shadowOpacity: 0.6,
-  },
-  linearGradient: {
-    borderRadius: 30,
-  },
-  textStyle: {
-    paddingTop: 20,
-    paddingBottom: 20,
-    fontSize: 25,
-    color: '#fff',
-    textAlign: 'center',
-    fontFamily: 'Arial',
   },
 });
