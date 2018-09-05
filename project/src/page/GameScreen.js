@@ -3,19 +3,32 @@ import {TouchableOpacity, ImageBackground, StyleSheet, Text, View, Image} from "
 import React from "react";
 import {baseStyles} from "../style/base";
 
+import {jsonPatternData} from "../data/patternData";
+
 export default class GameScreen extends Component {
   render() {
+    const data = jsonPatternData.data.filter(function(item){
+      if (item.id === 1) return true;
+    });
+    const setFontColor = (color) => {
+      let style = {
+        fontSize: 32,
+        fontWeight: 'bold',
+      };
+      style["color"] = color;
+      return style;
+    };
     return (
         <View style={baseStyles.container}>
           <ImageBackground source={require('../image/bg-arrows.jpg')} style={{width: '100%', height: '100%'}}>
             <View style={baseStyles.main}>
-              <Text style={styles.question}>文字が赤色はどっち？</Text>
+              <Text style={styles.question}>{data[0].question}</Text>
               <View style={styles.wrapper}>
                 <View style={styles.answer}>
-                  <Text style={styles.fontColor}>あか</Text>
+                  <Text style={setFontColor(data[0].left.color)}>{data[0].left.text}</Text>
                 </View>
                 <View style={styles.answer}>
-                  <Text style={styles.fontColor}>くろ</Text>
+                  <Text style={setFontColor(data[0].right.color)}>{data[0].right.text}</Text>
                 </View>
               </View>
               <View style={styles.wrapperButtons}>
@@ -63,10 +76,6 @@ const styles = StyleSheet.create({
     height: 140,
     alignItems: 'center',
     justifyContent: 'center'
-  },
-  fontColor: {
-    fontSize: 32,
-    fontWeight: 'bold',
   },
   arrowButton: {
     width: 100,
