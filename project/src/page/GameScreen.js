@@ -8,8 +8,10 @@ import {jsonPatternData} from "../data/patternData";
 
 export default class GameScreen extends Component {
   render() {
+    const randam = Math.floor( Math.random() * jsonPatternData.total ) + 1;
+    console.log(randam);
     const data = jsonPatternData.data.filter(function(item){
-      if (item.id === 1) return true;
+      if (item.id === randam) return true;
     });
 
     return (

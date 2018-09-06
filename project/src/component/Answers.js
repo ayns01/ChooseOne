@@ -1,6 +1,39 @@
-import {StyleSheet, Text, TouchableOpacity, View} from "react-native";
-import LinearGradient from "react-native-linear-gradient";
+import {StyleSheet, Text, Image, View} from "react-native";
 import React from "react";
+
+import { IMAGE } from "../util/GameImage";
+
+const AnswerBox = (props) => {
+  const {
+    type,
+    data
+  } = props;
+
+  const setFontColor = (color) => {
+    let style = {
+      fontSize: 32,
+      fontWeight: 'bold',
+    };
+    style["color"] = color;
+    return style;
+  };
+
+
+  if (type === 'fontColor') {
+    return (
+        <View style={styles.answer}>
+          <Text style={setFontColor(data.color)}>{data.text}</Text>
+        </View>
+    );
+  }
+  if (type === 'junken' || type === 'clock') {
+    return (
+        <View style={styles.answer}>
+          <Image source={IMAGE[data]} style={{maxWidth: 100}} resizeMode={'contain'}></Image>
+        </View>
+    );
+  }
+};
 
 const Answers = (props) => {
   const {
@@ -18,12 +51,8 @@ const Answers = (props) => {
 
   return (
       <View style={styles.wrapper}>
-        <View style={styles.answer}>
-          <Text style={setFontColor(data.left.color)}>{data.left.text}</Text>
-        </View>
-        <View style={styles.answer}>
-          <Text style={setFontColor(data.right.color)}>{data.right.text}</Text>
-        </View>
+        <AnswerBox data={data.left} type={data.type}></AnswerBox>
+        <AnswerBox data={data.right} type={data.type}></AnswerBox>
       </View>
   );
 };
