@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>React Native App</title>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+
+<!--Gamepage-->
+
+<div class="container">
+
+    <!--correct-->
+
+    <div class="image-background up">
+        <div class="correct-image">
+            <img src="../img/correct2.png" alt="correct">
+        </div>
+    </div>
+
+    <!--incorrect-->
+
+    <div class="image-background in">
+        <div class="incorrect-image">
+            <img src="../img/incorrect2.png" alt="incorrect">
+        </div>
+    </div>
+
+
+<div class="correct-incorrect">
+    <h1 class="question">文字が赤色はどっち？</h1>
+
+    <div class="answer-wrap">
+        <div class="answer left">
+
+            <!--Answer-->
+            <p style="color: blue;">あか</p>
+
+            <!--Image of answer/ If the image is portrait, give it's class name "portrait"-->
+            <img class="portrait" src="../img/mail-san.png" alt="answer-image" style="display: none">
+            <img src="../img/clock3-1-a.png" alt="answer-image" style="display: none">
+
+        </div>
+        <div class="answer right">
+
+            <!--Word of answer-->
+            <p style="color: red;">あお</p>
+
+            <!--Image of answer/ If the image is portrait, give it's class name "portrait"-->
+            <img class="portrait" src="../img/wild-san.png" alt="answer-image" style="display: none">
+            <img src="../img/clock3-1-b.png" alt="answer-image" style="display: none">
+
+        </div>
+    </div>
+
+    <!--Common part-->
+
+    <div class="btn-wrap" style="margin-bottom: 0">
+        <img src="../img/arrow-l.png" class="arrow-btn" alt="arrow-left">
+        <img src="../img/arrow-r.png" class="arrow-btn" alt="arrow-right">
+    </div>
+</div>
+
+</div>
+
+
+</body>
+</html>
