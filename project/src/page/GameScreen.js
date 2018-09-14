@@ -24,7 +24,7 @@ class GameScreen extends Component {
       if (isCorrect) {
         this.props.dispatch(addScore());
       }
-      this.setState({count: this.state.count + 1});
+      this.setState({count:this.state.count + 1});
     } else {
       this.setState({count: 0});
       this.props.navigation.navigate('Result');
