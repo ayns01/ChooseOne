@@ -61,7 +61,6 @@ export default class ResultScreen extends Component {
             {resultImage}
           </View>
           <Button
-              // onPress={() => this.props.navigation.navigate('Home')}
               onPress={this.onPress}
               colors={['#F28C81', '#F5AF19']}
           >RESTART</Button>
