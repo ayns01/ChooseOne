@@ -5,14 +5,20 @@ import React from "react";
 import {baseStyles} from "../style/base";
 import Button from "../component/Button";
 
-import { connect } from 'react-redux'
 import store from '../../index';
+import { resetAction } from '../action'
 
-//export default class ResultScreen extends Component {
-  class ResultScreen extends Component {
+export default class ResultScreen extends Component {
+  constructor(props) {
+    super(props);
+  }
+  
+  onPress = () => {
+    this.props.navigation.navigate('Home');
+    store.dispatch(resetAction());
+  }
 
   render() {
-    console.log(store.getState().score[0].value);
     const finalscore = store.getState().score[0].value;
     let resultImage;
 
@@ -42,10 +48,9 @@ import store from '../../index';
         resultImage = <Image source={require('../image/result/star-f.png')} resizeMode={'contain'} style={styles.resultImage}/>;
         break;
       default:
-      resultImage = <Image source={require('../image/result/star-f.png')} resizeMode={'contain'} style={styles.resultImage}/>;
+        resultImage = <Image source={require('../image/result/star-f.png')} resizeMode={'contain'} style={styles.resultImage}/>;
 
     }
-
 
     return (
       <View style={baseStyles.container}>
@@ -53,11 +58,11 @@ import store from '../../index';
       <Text style={styles.result}>RESULT</Text>
         <View style={baseStyles.main}>
           <View style={styles.logo}>
-            {/* <Image source={require('../image/result/star-a.png')} resizeMode={'contain'} style={styles.resultImage}/> */}
             {resultImage}
           </View>
           <Button
-              onPress={() => this.props.navigation.navigate('Home')}
+              // onPress={() => this.props.navigation.navigate('Home')}
+              onPress={this.onPress}
               colors={['#F28C81', '#F5AF19']}
           >RESTART</Button>
         </View>
@@ -99,5 +104,3 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
-
-export default connect()(ResultScreen);

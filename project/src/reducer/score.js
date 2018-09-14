@@ -6,6 +6,12 @@ const score = (state = [], action) => {
           value: action.value,
         }
       ];
+    case 'RESET':
+      return [
+        {
+          value: action.value,
+        }
+    ];
     default:
       return state;
   }
