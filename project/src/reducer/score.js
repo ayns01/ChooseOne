@@ -6,7 +6,7 @@ const score = (state = [], action) => {
           value: action.value,
         }
       ];
-    case 'RESET':
+    case 'RESET_SCORE':
       return [
         {
           value: action.value,

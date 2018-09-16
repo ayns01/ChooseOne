@@ -11,7 +11,7 @@ export const addScore = () => {
 export const resetAction = () => {
   countAnswer = 1;
   return {
-    type: "RESET",
+    type: "RESET_SCORE",
     value: countAnswer
   }
 }

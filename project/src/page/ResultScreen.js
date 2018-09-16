@@ -14,7 +14,7 @@ export default class ResultScreen extends Component {
   }
   
   onPress = () => {
-    this.props.navigation.navigate('Home');
+    this.props.navigation.navigate('Game');
     store.dispatch(resetAction());
   }
 
@@ -57,13 +57,15 @@ export default class ResultScreen extends Component {
       <ImageBackground source={require('../image/bg-arrows.jpg')} style={{width: '100%', height: '100%'}}>
       <Text style={styles.result}>RESULT</Text>
         <View style={baseStyles.main}>
-          <View style={styles.logo}>
+          <View style={styles.star}>
             {resultImage}
           </View>
-          <Button
-              onPress={this.onPress}
-              colors={['#F28C81', '#F5AF19']}
-          >RESTART</Button>
+          <View style={styles.restartBtn}>
+            <Button
+                onPress={this.onPress}
+                colors={['#3333FF', '#9933FF']}
+            >RESTART</Button>
+          </View>
         </View>
       </ImageBackground>
     </View>
@@ -75,31 +77,21 @@ const styles = StyleSheet.create({
   result: {
     textAlign: 'center',
     fontWeight: 'bold',
-    paddingTop: 60,
+    paddingTop: 80,
     fontSize: 32,
     color: 'dimgrey',
   },
-  logo: {
+  star: {
     width: '100%',
     position: 'relative',
-    marginBottom: 80,
+    marginBottom: 90,
   },
   resultImage: {
     width: '100%',
   },
-  logoTitle: {
+  restartBtn: {
     width: '100%',
-    height: '100%',
-    position: 'absolute',
-    top: 0,
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-  logoTitleText: {
-    color: '#5F5654',
-    lineHeight: 44,
-    fontSize: 32,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
+    position: 'relative',
+    marginBottom: 60,
+  }
 });
