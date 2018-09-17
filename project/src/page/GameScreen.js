@@ -34,7 +34,7 @@ class GameScreen extends Component {
       this.setState({count:this.state.count + 1});
     } else {
       this.setState({count: 0});
-      this.props.navigation.navigate('Result');
+      this.props.navigation.push('Result');
     }
   };
 
