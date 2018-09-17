@@ -1,5 +1,5 @@
 import {Component} from "react";
-import {ImageBackground, StyleSheet, Text, View, Image} from "react-native";
+import {ImageBackground, StyleSheet, Text, View, Modal} from "react-native";
 import React from "react";
 import {baseStyles} from "../style/base";
 
@@ -9,6 +9,7 @@ import {jsonPatternData} from "../data/patternData";
 
 import { connect } from 'react-redux'
 import { addScore } from '../action'
+import CountDown from "../component/CountDown";
 
 class GameScreen extends Component {
   constructor(props) {
@@ -16,8 +17,14 @@ class GameScreen extends Component {
 
     this.state = {
       count: 0,
+      modalVisible: true,
     };
   }
+
+  componentDidMount() {
+    setTimeout(() => this.setState({modalVisible: false}), 4000);
+  }
+
   onPress = (isCorrect) => () => {
     // Number of games : 8
     if (this.state.count < 8) {
@@ -27,7 +34,7 @@ class GameScreen extends Component {
       this.setState({count:this.state.count + 1});
     } else {
       this.setState({count: 0});
-      this.props.navigation.navigate('Result');
+      this.props.navigation.push('Result');
     }
   };
 
@@ -39,6 +46,12 @@ class GameScreen extends Component {
 
     return (
         <View style={baseStyles.container}>
+          <Modal
+              visible={this.state.modalVisible}
+              animationType={'none'}
+          >
+            <CountDown/>
+          </Modal>
           <ImageBackground source={require('../image/bg-arrows.jpg')} style={{width: '100%', height: '100%'}}>
             <View style={baseStyles.main}>
               <Text style={styles.question}>{data[0].question}</Text>
