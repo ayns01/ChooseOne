@@ -7,12 +7,12 @@
  */
 
 import React, {Component} from 'react';
-import { createStackNavigator } from 'react-navigation';
+import { createSwitchNavigator } from 'react-navigation';
 import HomeScreen from "./src/page/HomeScreen";
 import ResultScreen from "./src/page/ResultScreen";
 import GameScreen from "./src/page/GameScreen";
 
-const RootStack = createStackNavigator(
+const RootStack = createSwitchNavigator(
     {
       Home: HomeScreen,
       Game: GameScreen,

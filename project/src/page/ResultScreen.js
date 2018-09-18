@@ -14,7 +14,7 @@ export default class ResultScreen extends Component {
   }
   
   onPress = () => {
-    this.props.navigation.push('Game');
+    this.props.navigation.navigate('Game');
     store.dispatch(resetAction());
   }
 
