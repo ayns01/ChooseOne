@@ -5,21 +5,22 @@ import React from "react";
 import {baseStyles} from "../style/base";
 import Button from "../component/Button";
 
-import store from '../../index';
-import { resetAction } from '../action'
+import { connect } from 'react-redux'
+import { resetScore } from '../action'
 
-export default class ResultScreen extends Component {
+class ResultScreen extends Component {
   constructor(props) {
     super(props);
   }
   
   onPress = () => {
     this.props.navigation.navigate('Game');
-    store.dispatch(resetAction());
-  }
+    this.props.dispatch(resetScore());
+  };
 
   render() {
-    const finalscore = store.getState().score[0].value;
+    const finalscore = this.props.score.value;
+    console.log(finalscore);
     let resultImage;
 
     switch (finalscore) {
@@ -72,6 +73,12 @@ export default class ResultScreen extends Component {
     );
   }
 }
+
+const mapStateToProps = (state) => {
+  return {score: state.score}
+};
+
+export default connect(mapStateToProps)(ResultScreen);
 
 const styles = StyleSheet.create({
   result: {

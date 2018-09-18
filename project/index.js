@@ -9,7 +9,6 @@ import App from './App';
 import {name as appName} from './app.json';
 
 const store = createStore(rootReducer);
-export default store;
 
 const gameApp = () => {
   return (
@@ -20,4 +19,3 @@ const gameApp = () => {
 };
 
 AppRegistry.registerComponent(appName, () => gameApp);
-// AppRegistry.registerComponent(appName, () => App);

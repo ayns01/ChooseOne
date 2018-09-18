@@ -8,11 +8,11 @@ export const addScore = () => {
   }
 };
 
-export const resetAction = () => {
+export const resetScore = () => {
   countAnswer = 1;
   return {
     type: "RESET_SCORE",
-    value: countAnswer
+    value: 0
   }
-}
+};
 

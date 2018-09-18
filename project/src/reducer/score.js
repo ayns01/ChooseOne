@@ -1,17 +1,13 @@
 const score = (state = [], action) => {
   switch (action.type) {
     case 'ADD_SCORE':
-      return [
-        {
+      return ({
           value: action.value,
-        }
-      ];
+        });
     case 'RESET_SCORE':
-      return [
-        {
+      return ({
           value: action.value,
-        }
-    ];
+        });
     default:
       return state;
   }
