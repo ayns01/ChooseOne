@@ -5,9 +5,9 @@ This is a React Native app.
 ## How to run
 
 ```
-npm init
+npm install
 cd project
-npm init
+npm install
 ```
 
 To run your app on iOS (needs XCode):
